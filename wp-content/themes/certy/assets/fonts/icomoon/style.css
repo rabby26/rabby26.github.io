@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'icomoon';
   src:
-  url('http://localhost/rabby/wp-content/themes/certy/assets/fonts/icomoon/fonts/icomoon.ttf?3b2ao5') format('truetype'),
-  url('http://localhost/rabby/wp-content/themes/certy/assets/fonts/icomoon/fonts/icomoon.woff?3b2ao5') format('woff'),
-  url('http://localhost/rabby/wp-content/themes/certy/assets/fonts/icomoon/fonts/icomoon.svg?3b2ao5#icomoon') format('svg');
+  url('https://rabby26.github.io/wp-content/themes/certy/assets/fonts/icomoon/fonts/icomoon.ttf?3b2ao5') format('truetype'),
+  url('https://rabby26.github.io/wp-content/themes/certy/assets/fonts/icomoon/fonts/icomoon.woff?3b2ao5') format('woff'),
+  url('https://rabby26.github.io/wp-content/themes/certy/assets/fonts/icomoon/fonts/icomoon.svg?3b2ao5#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
