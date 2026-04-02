@@ -48,6 +48,25 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', checkReveal);
     checkReveal(); // Trigger once on load
 
+    // --- About Section Read More Toggle ---
+    const aboutToggleBtn = document.getElementById('aboutToggleBtn');
+    const aboutExtended = document.getElementById('aboutExtended');
+    const aboutDots = document.getElementById('aboutDots');
+
+    if (aboutToggleBtn && aboutExtended && aboutDots) {
+        aboutToggleBtn.addEventListener('click', () => {
+            if (aboutExtended.style.display === 'block') {
+                aboutExtended.style.display = 'none';
+                aboutDots.style.display = 'inline';
+                aboutToggleBtn.innerHTML = 'Read More <i class="ph ph-caret-down" style="margin-left: 0.3rem;"></i>';
+            } else {
+                aboutExtended.style.display = 'block';
+                aboutDots.style.display = 'none';
+                aboutToggleBtn.innerHTML = 'Read Less <i class="ph ph-caret-up" style="margin-left: 0.3rem;"></i>';
+            }
+        });
+    }
+
     // --- Contact Form Modal ---
     const contactForm = document.getElementById('contactForm');
     const successModal = document.getElementById('successModal');

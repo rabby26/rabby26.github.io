@@ -290,6 +290,28 @@ main {
   margin-bottom: 0;
 }
 
+.hidden-text {
+  display: none;
+}
+
+.btn-read-more {
+  background: none;
+  border: none;
+  color: var(--accent-1);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  font-family: inherit;
+  transition: var(--transition);
+}
+
+.btn-read-more:hover {
+  text-decoration: underline;
+}
+
 /* Skills Section */
 .skills-grid {
   display: grid;
